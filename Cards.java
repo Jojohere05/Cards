@@ -19,5 +19,9 @@ public class Cards {
     public boolean sameCard(Cards other){
         return this.suit.equals(other.suit);
     }
+    public boolean compareCard(Cards other){
+        return this.rank.equals(other.rank);
+    }
+    
 
 }
