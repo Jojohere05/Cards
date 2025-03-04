@@ -5,4 +5,8 @@ public class Cards {
         this.suit=suits;
         this.rank=rank;
     }
+    public String getSuit() {
+        return suit;
+    }
+
 }
