@@ -22,6 +22,4 @@ public class Cards {
     public boolean compareCard(Cards other){
         return this.rank.equals(other.rank);
     }
-    
-
 }
