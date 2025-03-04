@@ -41,5 +41,9 @@ public class Deck {
             deck.get(index).printCard();
         }
     }
+    public void shuffleDeck(){
+        Collections.shuffle(deck);
+        System.out.println("Cards shuffled");
+    }
 
 }
