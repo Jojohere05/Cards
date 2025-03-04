@@ -11,5 +11,9 @@ public class Cards {
     public String getRank() {
         return rank;
     }
+    public void printCard(){
+        System.out.println(rank+" of "+suit);
+    }
+    
 
 }
