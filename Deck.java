@@ -23,4 +23,16 @@ public class Deck {
             card.printCard();
         }
     }
+    public boolean findCard(String rank, String suit){
+        for (Cards card : deck){
+            if (card.getRank().equalsIgnoreCase(rank) && card.getSuit().equalsIgnoreCase(suit)) {
+                System.out.println("Card found: " + rank + " of " + suit);
+                return true;
+            }
+        }
+        System.out.println("Card not found!");
+        return false;
+    }
+    
+
 }
