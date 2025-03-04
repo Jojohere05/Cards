@@ -8,5 +8,8 @@ public class Cards {
     public String getSuit() {
         return suit;
     }
+    public String getRank() {
+        return rank;
+    }
 
 }
