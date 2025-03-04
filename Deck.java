@@ -33,6 +33,13 @@ public class Deck {
         System.out.println("Card not found!");
         return false;
     }
-    
+    public void dealCard(){
+        Random rand = new Random();
+        System.out.println("Dealing 5 random cards:");
+        for (int i = 0; i < 5; i++) {
+            int index = rand.nextInt(deck.size());
+            deck.get(index).printCard();
+        }
+    }
 
 }
