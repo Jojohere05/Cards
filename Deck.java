@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
+
+import javax.smartcardio.Card;
 public class Deck {
     private ArrayList<Cards> deck;
     public Deck(){
@@ -14,6 +16,11 @@ public class Deck {
             for (String rank:ranks){
                 deck.add(new Cards(suit, rank));
             }
+        }
+    }
+     public void printDeck() {
+        for (Cards card : deck) {
+            card.printCard();
         }
     }
 }
