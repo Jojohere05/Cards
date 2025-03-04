@@ -1,3 +1,5 @@
+//import javax.smartcardio.Card;
+
 public class Cards {
     private String suit;
     private String rank;
@@ -14,6 +16,8 @@ public class Cards {
     public void printCard(){
         System.out.println(rank+" of "+suit);
     }
-    
+    public boolean sameCard(Cards other){
+        return this.suit.equals(other.suit);
+    }
 
 }
