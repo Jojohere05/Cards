@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-import javax.smartcardio.Card;
+//import javax.smartcardio.Card;
 public class Deck {
     private ArrayList<Cards> deck;
     public Deck(){
